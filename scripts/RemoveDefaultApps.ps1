@@ -45,8 +45,8 @@ $applicationList = @(
 	"Microsoft.Print3D"
 	"*Autodesk*"
 	"*BubbleWitch*"
-    "king.com*"
-    "G5*"
+    	"king.com*"
+    	"G5*"
 	"*Dell*"
 	"*Facebook*"
 	"*Keeper*"
@@ -57,6 +57,10 @@ $applicationList = @(
 	"*.EclipseManager"
 	"ActiproSoftwareLLC.562882FEEB491" # Code Writer
 	"*.AdobePhotoshopExpress"
+	"*Fitbit*"
+	"*Gardenscapes*"
+	"*Asphalt*"
+	"*Seekers*"
 );
 
 foreach ($app in $applicationList) {
